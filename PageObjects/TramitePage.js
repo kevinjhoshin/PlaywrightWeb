@@ -46,6 +46,9 @@ class TramitePage{
         this.horaselec = page.getByText('09:00 - 12:00 ');
         
         this.nose123 = page;
+        this.tarjetareclamo= page.locator('.claim-container');
+        this.containerreclamo= page.locator('.container-layout');
+        this.tarjetacorreo = page.locator("giru-change-method-send-c-selects-additional");
     }
 
     async TramitarPedidoCorrespondencia (textotramite,responsetramite){
@@ -79,6 +82,9 @@ class TramitePage{
         await this.clarobutton.click();
         await this.listemail.click();
         await this.selecemagil.first().click();
+
+        await this.containerreclamo.screenshot({ path: 'ImagenesEvidencia/'+Date.now()+'pedido1.png'});
+        await this.tarjetacorreo.screenshot({ path: 'ImagenesEvidencia/'+Date.now()+'pedido2.png'});
 
 
         await this.registrartramite.click();

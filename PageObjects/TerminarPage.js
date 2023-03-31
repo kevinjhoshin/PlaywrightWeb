@@ -6,6 +6,7 @@ class TerminarPage{
         this.txtemailenviado = page.locator('#deliverEmail ul li');
         this.txtnumerotramite = page.locator("#no-proceed-section .parrafo");
         this.terminarbutton = page.locator("#end-atention");
+        this.tarjetatramite = page.locator("giru-default-success-content div div[class='modal-content']")
         
 
     }
@@ -14,6 +15,7 @@ class TerminarPage{
         const titletext = this.txtexitotramite.textContent();
         await console.log(await titletext);
         const tramitetext = this.txtnumerotramite.first().textContent();
+        await this.tarjetatramite.screenshot({ path: 'ImagenesEvidencia/'+Date.now()+'numeroTramite.png'})
         await console.log("numero de tramite: " +await tramitetext);
         await console.log("-----------------------------------------------------------")
 
