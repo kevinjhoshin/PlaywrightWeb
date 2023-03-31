@@ -1,0 +1,23 @@
+
+[
+    {
+        "username"          : "B36142",
+        "password"          : "12345678",
+        "dni"               : "37425261 ",
+        "marcatipo"         : "Visa Oro ",
+        "tipocliente"       : "545",
+        "fechaentrega"      : "31/03/2023",
+        "textotramite"      : "Solicito cambio de tarjeta upgrade hoy 18-03-2023",
+        "responsetramite"   : "Pedido recibido"
+    },
+    {
+        "username"          : "B36142",
+        "password"          : "12345678",
+        "dni"               : "58883061 ",
+        "marcatipo"         : "Visa CashBack Platinum ",
+        "tipocliente"       : "544",
+        "fechaentrega"      : "31/03/2023",
+        "textotramite"      : "Solicito cambio de tarjeta upgrade hoy 18-03-2023",
+        "responsetramite"   : "Pedido recibido"
+    }
+]

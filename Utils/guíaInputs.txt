@@ -1,0 +1,18 @@
+LISTA MARCATIPO:                                LISTA TIPOCLIENTE:
+Visa Clasica                                    553
+Visa Oro                                        545
+Visa Signature                                  504
+Visa CashBack Signature                         504                                     
+Visa CashBack Platinum                          544
+Visa CashBack Oro                               545
+Visa Platinum                                   544
+Visa Infinite                                   553
+Visa Access                                     508
+Visa Premia                                     333
+American Express Green                          552
+American Express Revolving Gold                 545
+American Express The Platinum Card              501
+American Express Blue                           552
+American Express Platinum                       544
+American Express Black                          504
+

@@ -1,0 +1,16 @@
+[
+    {
+    "username"          : "X11624",
+    "password"          : "12345678",
+    "dni"               : "34946078",
+    "textotramite"      : "Solicito cambio forma envio de correspondencia hoy 17-03-2023",
+    "responsetramite"   : "Pedido recibido"
+    },
+    {
+        "username"          : "X11624",
+        "password"          : "12345678",
+        "dni"               : "73968789",
+        "textotramite"      : "Solicito cambio forma envio de correspondencia hoy 17-03-2023",
+        "responsetramite"   : "Pedido recibido"
+        }
+]
